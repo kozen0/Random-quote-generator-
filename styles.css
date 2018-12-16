@@ -1,2 +1,41 @@
 * {
+
+}
+a {
+   color: white;
+    text-decoration: none;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background: black;
+    list-style-type: none;
+    float: left;
+    padding: 0 5px 0 5px;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+    clear: both;
+    margin: 10px;
+    background-color: gray;
 }
